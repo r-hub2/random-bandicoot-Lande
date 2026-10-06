@@ -5,13 +5,13 @@ knitr::opts_chunk$set(
   fig.width = 6.5, fig.height = 4.5, dpi = 72, out.width = "100%"
 )
 set.seed(1)
-library(Lande)
+library(lande)
 
 ## ----echo=FALSE, out.width="100%", fig.cap="Function dependencies. Drawn from workflow.dot with Graphviz."----
 knitr::include_graphics("workflow.png")
 
 ## ----message=FALSE, warning=FALSE---------------------------------------------
-library(Lande)
+library(lande)
 
 ## ----message=FALSE, warning=FALSE---------------------------------------------
 set.seed(42)
