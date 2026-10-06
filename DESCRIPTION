@@ -46,12 +46,12 @@ Depends: R (>= 4.0.0)
 Imports: mgcv, MASS, Matrix, ggplot2 (>= 3.4.0), dplyr, fields,
         grDevices, stats, utils
 Suggests: akima, car, ggrepel, patchwork, performance, plotly, shiny,
-        viridis, knitr, rmarkdown, testthat (>= 3.0.0)
+        viridis, knitr, RhpcBLASctl, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr, rmarkdown
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-10-06 13:39:23 UTC; aliseankhan
+Packaged: 2026-10-06 14:26:03 UTC; aliseankhan
 Author: Vanessa Zhou [aut] (affiliation: College of Computing, Georgia
     Institute of Technology, Atlanta, GA, United States),
   Ali Sean Khan [aut] (affiliation: College of Computing, Georgia
