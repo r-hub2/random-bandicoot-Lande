@@ -43,15 +43,15 @@ BugReports: https://github.com/Human-Augment-Analytics/Lande/issues
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.0.0)
-Imports: mgcv, MASS, Matrix, ggplot2 (>= 3.4.0), dplyr, grDevices,
-        stats, utils
-Suggests: akima, car, fields, ggrepel, patchwork, performance, plotly,
-        shiny, viridis, knitr, rmarkdown, testthat (>= 3.0.0)
-VignetteBuilder: knitr
+Imports: mgcv, MASS, Matrix, ggplot2 (>= 3.4.0), dplyr, fields,
+        grDevices, stats, utils
+Suggests: akima, car, ggrepel, patchwork, performance, plotly, shiny,
+        viridis, knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr, rmarkdown
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-10-06 12:08:29 UTC; aliseankhan
+Packaged: 2026-10-06 13:39:23 UTC; aliseankhan
 Author: Vanessa Zhou [aut] (affiliation: College of Computing, Georgia
     Institute of Technology, Atlanta, GA, United States),
   Ali Sean Khan [aut] (affiliation: College of Computing, Georgia
