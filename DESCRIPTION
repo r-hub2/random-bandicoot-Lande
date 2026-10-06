@@ -1,0 +1,70 @@
+Package: Lande
+Type: Package
+Title: Tools for Evolutionary Selection Analysis
+Version: 0.1.0
+Authors@R: 
+    c(
+        person("Vanessa", "Zhou",
+            role = c("aut"),
+            comment = c(affiliation = "College of Computing, Georgia Institute of Technology, Atlanta, GA, United States")),
+        person("Ali Sean", "Khan",
+            role = c("aut"),
+            comment = c(affiliation = "College of Computing, Georgia Institute of Technology, Atlanta, GA, United States")),
+        person("Calvin", "Yu",
+            role = c("aut"),
+            comment = c(affiliation = "College of Computing, Georgia Institute of Technology, Atlanta, GA, United States")),
+        person("Taylor", "Papke",
+            role = c("aut"),
+            comment = c(affiliation = "College of Computing, Georgia Institute of Technology, Atlanta, GA, United States")),
+        person("Dima", "Al Nabhani",
+            role = c("aut"),
+            comment = c(affiliation = "College of Computing, Georgia Institute of Technology, Atlanta, GA, United States")),
+        person("Guillermo", "Garcia-Costoya",
+            role = c("aut"),
+            comment = c(affiliation = "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, United States")),
+        person("James", "Stroud", email = "stroud@gatech.edu",
+            role = c("aut", "cre"),
+            comment = c(affiliation = "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, United States"))
+    )
+Description: Estimates selection differentials and linear, quadratic and
+    correlational selection gradients on relative fitness following Lande and
+    Arnold (1983) <doi:10.1111/j.1558-5646.1983.tb00236.x>, with p-values from
+    the logistic model for survival and from a Poisson or negative binomial
+    model for counts. Fits cubic spline fitness functions as in Schluter (1988)
+    <doi:10.1111/j.1558-5646.1988.tb02507.x> and two-trait fitness surfaces
+    drawn only where there are data, and computes adaptive landscapes of mean
+    fitness against the population mean for one or two traits, by period and
+    for several groups on one surface. Includes bootstrap intervals, a
+    combined results table and a Shiny app.
+License: MIT + file LICENSE
+URL: https://github.com/Human-Augment-Analytics/Lande,
+        https://human-augment-analytics.github.io/Lande/
+BugReports: https://github.com/Human-Augment-Analytics/Lande/issues
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports: mgcv, MASS, Matrix, ggplot2 (>= 3.4.0), dplyr, grDevices,
+        stats, utils
+Suggests: akima, car, fields, ggrepel, patchwork, performance, plotly,
+        shiny, viridis, knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
+NeedsCompilation: no
+Packaged: 2026-10-06 12:08:29 UTC; aliseankhan
+Author: Vanessa Zhou [aut] (affiliation: College of Computing, Georgia
+    Institute of Technology, Atlanta, GA, United States),
+  Ali Sean Khan [aut] (affiliation: College of Computing, Georgia
+    Institute of Technology, Atlanta, GA, United States),
+  Calvin Yu [aut] (affiliation: College of Computing, Georgia Institute
+    of Technology, Atlanta, GA, United States),
+  Taylor Papke [aut] (affiliation: College of Computing, Georgia
+    Institute of Technology, Atlanta, GA, United States),
+  Dima Al Nabhani [aut] (affiliation: College of Computing, Georgia
+    Institute of Technology, Atlanta, GA, United States),
+  Guillermo Garcia-Costoya [aut] (affiliation: School of Biological
+    Sciences, Georgia Institute of Technology, Atlanta, GA, United
+    States),
+  James Stroud [aut, cre] (affiliation: School of Biological Sciences,
+    Georgia Institute of Technology, Atlanta, GA, United States)
+Maintainer: James Stroud <stroud@gatech.edu>
